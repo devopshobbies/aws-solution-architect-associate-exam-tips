@@ -59,4 +59,14 @@ There are two different types of users in AWS. You are either the account owner 
 - Use Access keys for Programmatic Access (CLI/SDK)
 - Audit Permissions of your account with the IAM Credentials Report
 
+<h3 style='color:yellowgreen'>IAM Identity and Access Management</h3>
+<img src='../../assets/IAM_Identity_and_Access_management.png'>
 
+
+<h3 style='color:yellowgreen'>IAM Components</h3>
+
+there are 4 component in IAM
+ - Users
+ - Groups
+ - Policies
+ - Roles
