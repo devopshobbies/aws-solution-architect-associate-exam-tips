@@ -36,6 +36,8 @@ if you are using a cloud of government in the the US.
 <h3 style='color:yellowgreen'>AWS account root user credentials and IAM user credentials</h3>
 There are two different types of users in AWS. You are either the account owner (root user) or you are an AWS Identity and Access Management (IAM) user. The root user is created when the AWS account is created and IAM users are created by the root user or an IAM administrator for the account. All AWS users have security credentials.
 
+
+
 - Root user credentials
 
 >The credentials of the account owner allow full access to all resources in the account. You cannot use IAM policies to explicitly deny the root user access to resources. You can only use an AWS Organizations service control policy (SCP) to limit the permissions of the root user. Because of this, we recommend that you create an IAM user with administrator permissions to use for everyday AWS tasks and lock away the access keys for the root user.There are specific tasks that are restricted to the AWS account root user. For example, only the root user can close your account. If you need to perform a task that requires the root user, sign in to the AWS Management Console using the email address and password of the root user. For more information, see Tasks that require root user credentials.
