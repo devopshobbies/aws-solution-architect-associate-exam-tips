@@ -5,4 +5,4 @@
 # aws-solution-architect-associate-exam-tips
 We are trying to create a practical cheat sheet for solution architect associate exam! 
 
-[01](content/01-IAM/README.md)
+[01-IAM](content/01-IAM/README.md)
