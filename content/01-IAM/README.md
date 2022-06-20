@@ -38,15 +38,11 @@ There are two different types of users in AWS. You are either the account owner 
 
 - Root user credentials
 
-        The credentials of the account owner allow full access to all resources in the account. You cannot use IAM policies to explicitly deny the root user access to resources. You can only use an AWS Organizations service control policy (SCP) to limit the permissions of the root user. Because of this, we recommend that you create an IAM user with administrator permissions to use for everyday AWS tasks and lock away the access keys for the root user.
-
-        There are specific tasks that are restricted to the AWS account root user. For example, only the root user can close your account. If you need to perform a task that requires the root user, sign in to the AWS Management Console using the email address and password of the root user. For more information, see Tasks that require root user credentials.
+>The credentials of the account owner allow full access to all resources in the account. You cannot use IAM policies to explicitly deny the root user access to resources. You can only use an AWS Organizations service control policy (SCP) to limit the permissions of the root user. Because of this, we recommend that you create an IAM user with administrator permissions to use for everyday AWS tasks and lock away the access keys for the root user.There are specific tasks that are restricted to the AWS account root user. For example, only the root user can close your account. If you need to perform a task that requires the root user, sign in to the AWS Management Console using the email address and password of the root user. For more information, see Tasks that require root user credentials.
 
 - IAM credentials
 
-        With IAM, you can securely control access to AWS services and resources for users in your AWS account. For example, if you require administrator-level permissions, you can create an IAM user, grant that user full access, and then use those credentials to interact with AWS. If you need to modify or revoke your permissions, you can delete or modify the policies that are associated with that IAM user.
-
-        If you have multiple users that require access to your AWS account, you can create unique credentials for each user and define who has access to which resources. You don't need to share credentials. For example, you can create IAM users with read-only access to resources in your AWS account and distribute those credentials to users.
+>With IAM, you can securely control access to AWS services and resources for users in your AWS account. For example, if you require administrator-level permissions, you can create an IAM user, grant that user full access, and then use those credentials to interact with AWS. If you need to modify or revoke your permissions, you can delete or modify the policies that are associated with that IAM user.If you have multiple users that require access to your AWS account, you can create unique credentials for each user and define who has access to which resources. You don't need to share credentials. For example, you can create IAM users with read-only access to resources in your AWS account and distribute those credentials to users.
 
 <h3 style='color:yellowgreen'>IAM Best practices</h3>
 
